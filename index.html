@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<!-- STRG ALT L für schönheit -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+
+    <title>Eric's Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="shortcut icon" href="images/OGLOGO.png" type="image/x-icon"/>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+
+
+<!-- Header design -->
+<header class="header">
+    <a href="#" class="logo"> Eric L. Harloff </a>
+    <div class="bx bx-menu" id="menu-icon">
+
+        <!-- Navbar design -->
+    </div>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#Semester2024">Semester2024 Webcomp. Assignment</a>
+        <a href="#Memes">Memes</a>
+    </nav>
+
+</header>
+
+<!-- Home section design -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h1> Welcome!<span> To my site.</span></h1>
+        <div class="text-animate">
+            <h3> Medizin Informatik Student B.scs </h3>
+        </div>
+        <p> If you know the Web-Icon ill give you 50$ </p>
+        <div class="btn-box">
+            <a href="#about" class="btn"> About </a>
+            <a href="#Memes" class="btn"> Memes </a>
+        </div>
+
+    </div>
+    <div class="home-sci">
+        <a href="#https://steamcommunity.com/profiles/76561198209551812/"><i class='bx bxl-steam'></i></a>
+        <a href="#https://web.whatsapp.com/"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#https://discord.com/channels/@me"><i class='bx bxl-discord-alt'></i></a>
+    </div>
+    <div class="home-imgHover">
+    </div>
+</section>
+
+<!--about section design -->
+<section class="about" id="about">
+    <h2 class="heading"><span>About ME</span></h2>
+
+    <div class="about-img">
+        <img src="images/Tylor.PNG" alt="">
+        <span class="circle-spin"> </span>
+    </div>
+    <div class="about-content">
+        <h3> "Eric Lennard Harloff" </h3>
+        <p> I suppose I write here about myself. This is not supposed to be professional. I'm a *Cripple* with over 30 Operations under my belt in under 4 years.
+            I've spent 4 years in and out of the Hospital from 2019 to 2023 in which time I made my FHR
+            in a wheelchair.
+            My Hobbies and interests lie in Warhammer40k, cooking and Armored Warfare, especially AFV's and IFV's from the Second and First World War.
+            As mentioned before I love Cooking and have the experience of multiple accredited Cooking courses in my Arsenal.
+            On a side-note if im writing stuff down anyway, I have a particular interest in Greek and Roman Mythology.
+            That's all for this section, but down in the Meme Section you will find a few things. Things that if you
+            understand them, we can bond over.
+            If need arises to contact me, you, dear reader, can go to the bottom of the Page or find my Socials on the Front Page.
+        </p>
+        <div class="btn-box btns">
+            <a href="#" class="btn"> We go UP!</a>
+        </div>
+    </div>
+</section>
+
+<!-- Semesteraufgabe -->
+<section class="Semester2024" id="Semester2024">
+    <h2 class="heading"> <span>Semesteraufgabe 2024 Webcomputing</span></h2>
+<main>
+    <section class="form-section">
+        <h2> Geben sie Ihre Zutaten ein: </h2>
+        <form action="/cgi-bin/rezept_vorschlager.py" method="post">
+            <label for="zutat1">Zutat 1:</label>
+            <input type="text" id="zutat1" name="zutat1" required><br>
+            <label for="zutat2">Zutat 2:</label>
+            <input type="text" id="zutat2" name="zutat2" required><br>
+            <label for="zutat3">Zutat 3:</label>
+            <input type="text" id="zutat3" name="zutat3" required><br>
+            <button type="submit">Rezept vorschlagen</button>
+        </form>
+    </section>
+</main>
+
+</section>
+
+<!-- Meme Section -->
+<section class="Memes" id="Memes">
+    <h2 class="heading"> <span>Meme-Section </span>  </h2>
+
+
+    <!-- Slider main container for memes-->
+    <div class="swiper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide" style="background-image:url('images/Nya.png')">
+                    <div class="swiper-content">
+                        <h2>Slide 1</h2>
+                        <p>Tell me where this is from to win a Prize.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image:url('images/ARGUMENT.jpg')">
+                    <div class="swiper-content">
+                        <h2>Slide 2</h2>
+                        <p>Hand over ur SSN</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image:url('images/BETTERPLACE.jpg')">
+                    <div class="swiper-content">
+                        <h2>Slide 3</h2>
+                        <p>Truly.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url('images/Bosnia.png')">
+                    <div class="swiper-content">
+                        <h2>Slide 4</h2>
+                        <p>PVZ</p>
+                    </div>
+                </div>
+                    <div class="swiper-slide" style="background-image:url('images/CRIMPEPE.png')">
+                        <div class="swiper-content">
+                            <h2>Slide 5</h2>
+                            <p>Go my child, do a Crime</p>
+                        </div>
+                    </div>
+                        <div class="swiper-slide" style="background-image:url('images/GROWL.jpg')">
+                            <div class="swiper-content">
+                                <h2>Slide 6</h2>
+                                <p>:pepegaplease:</p>
+                            </div>
+                        </div>
+                            <div class="swiper-slide" style="background-image:url('images/GTA.jpg')">
+                                <div class="swiper-content">
+                                    <h2>Slide 7</h2>
+                                    <p>Finally</p>
+                                </div>
+                            </div>
+                                <div class="swiper-slide" style="background-image:url('images/MetalPipeCat.png')">
+                                    <div class="swiper-content">
+                                        <h2>Slide 8</h2>
+                                        <p>:) yum :)</p>
+                                    </div>
+                                </div>
+                                    <div class="swiper-slide" style="background-image:url('images/PARKING.jpg')">
+                                        <div class="swiper-content">
+                                            <h2>Slide 9</h2>
+                                            <p>Truly my Spot</p>
+                                        </div>
+                                    </div>
+                                        <div class="swiper-slide" style="background-image:url('images/POPTEAMPOLE.PNG')">
+                                            <div class="swiper-content">
+                                                <h2>Slide 10</h2>
+                                                <p>What's your OG starter?</p>
+                                            </div>
+                                        </div>
+                                            <div class="swiper-slide" style="background-image:url('images/sda.PNG')">
+                                                <div class="swiper-content">
+                                                    <h2>Slide 11</h2>
+                                                    <p>Sadly i have found happyness</p>
+                                                </div>
+                                            </div>
+                                                <div class="swiper-slide" style="background-image:url('images/SHELBY.jpg')">
+                                                    <div class="swiper-content">
+                                                        <h2>Slide 12</h2>
+                                                        <p>Ultimate drip :)</p>
+                                                    </div>
+                                                </div>
+                                                    <div class="swiper-slide" style="background-image:url('images/URDARNY.PNG')">
+                                                        <div class="swiper-content">
+                                                            <h2>Slide 13</h2>
+                                                            <p>If you can Explain this to me in Person, you get cash on the spot</p>
+                                                        </div>
+                                                    </div>
+                                                        <div class="swiper-slide" style="background-image:url('images/UBER.jpg')">
+                                                            <div class="swiper-content">
+                                                                <h2>Slide 14</h2>
+                                                                <p>Murder?</p>
+                                                            </div>
+                                                        </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Add Scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
+
+
+        <script src="js/main.js"></script>
+    </div>
+</section>
+</body>
+</html>
+
